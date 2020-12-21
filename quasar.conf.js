@@ -19,6 +19,7 @@ module.exports = function (/* ctx */) {
     // https://quasar.dev/quasar-cli/boot-files
     boot: [
       
+      'i18n',
       'axios',
     ],
 
@@ -176,7 +177,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'quasargram'
+        appId: 'testproject'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration
